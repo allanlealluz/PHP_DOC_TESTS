@@ -45,10 +45,8 @@ $userEntries = $redis->lrange("user:$userId:entries", 0, -1);
             <li>
                 Nome: <?php echo $decodedEntry['name']; ?> - Mensagem: <?php echo $decodedEntry['message']; ?>
             </li>
-        <?php,
-    
-    ,0,
-                                                                                                   endforeach; ?>01
-                                                                                                   
+        <?php
+                 endforeach; ?>
+
     </ul>
 </div>
