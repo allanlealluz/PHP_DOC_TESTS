@@ -8,7 +8,7 @@
             "name": "Launch Chrome",
             "request": "launch",
             "type": "chrome",
-            "url": "http://localhost:80/PHP_DOC_STUDY",
+            "url": "http://localhost/PHP_DOC_STUDY",
             "webRoot": "${workspaceFolder}"
         }
     ]
